@@ -1,9 +1,11 @@
 from pathlib import Path
 
 
-PASTA_PROJETO = Path(__file__).resolve().parents[2]
+PASTA_PROJETO = Path(__file__).parent
 
 PASTA_DADOS = PASTA_PROJETO / "dados"
+PASTA_MODELOS = PASTA_PROJETO / "modelos"
+
 
 # coloque abaixo o caminho para os arquivos de dados de seu projeto
 DADOS_ORIGINAIS = PASTA_DADOS / "employee_attrition.csv"
