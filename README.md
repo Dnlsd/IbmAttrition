@@ -78,7 +78,7 @@ https://danielibmattrition.streamlit.app/
 
 ## Notebooks de referência
 
-Análise Exploratória dos dados e discussão inicial: [EDA](notebooks/01_EDA.ipynb).
+Análise Exploratória dos dados e discussão inicial: [EDA](notebooks/01_EDA.ipynb).<br>
 Criação do modelo e discussão do projeto: [Modelo Principal](notebooks/02_Modelos_RUS_final.ipynb).
 
 
