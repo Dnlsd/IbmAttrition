@@ -11,7 +11,7 @@ O dataset a ser utilizado é o *IBM HR Analytics Employee Attrition & Performanc
 [Link do Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
 
 
-Essa será a base de referência para o projeto de Machine Learning. Para mais detalhes, acesse a o arquivo [Sobre a Base](referencias/01_sobre_a_base.md).
+Para mais detalhes sobre a base, acesse a o arquivo [Sobre a Base](referencias/01_sobre_a_base.md).
 
 
 
@@ -69,10 +69,18 @@ O objetivo do projeto é criar um modelo preditivo (Moldelo de aprendizado de M�
     arquivo ao controle de versão, removendo o arquivo `ambiente.yml`.
 
 
+# Resultados
 
-# Site para iteração com o modelo desenvolvido
+## Site para iteração com o modelo desenvolvido
 
 https://danielibmattrition.streamlit.app/
+
+
+## Notebooks de referência
+
+Análise Exploratória dos dados e discussão inicial: [EDA](notebooks/01_EDA.ipynb).
+Criação do modelo e discussão do projeto: [Modelo Principal](notebooks/02_Modelos_RUS_final.ipynb).
+
 
 
 # Crétidos
