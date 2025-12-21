@@ -27,7 +27,7 @@ O objetivo do projeto é criar um modelo preditivo (Moldelo de aprendizado de M�
 ├── ambiente.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
 ├── LICENSE            <- Licença de código aberto.
 ├── README.md          <- README principal para desenvolvedores que usam este projeto.
-|
+├── requiremnts.txt    <- Bibliotecas necessárias para execução do projeto no streamlit
 ├── dados              <- Arquivos de dados para o projeto.
 |
 ├── modelos            <- Modelos treinados e serializados, previsões de modelos ou resumos de modelos
@@ -53,7 +53,7 @@ O objetivo do projeto é criar um modelo preditivo (Moldelo de aprendizado de M�
 1. Faça o clone do repositório que será criado a partir deste modelo.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:Dnlsd/IbmAttrition.git
     ```
 
 2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
@@ -72,7 +72,7 @@ O objetivo do projeto é criar um modelo preditivo (Moldelo de aprendizado de M�
 
 # Site para iteração com o modelo desenvolvido
 
-
+https://danielibmattrition.streamlit.app/
 
 
 # Crétidos
