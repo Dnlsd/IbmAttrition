@@ -1,7 +1,10 @@
+import os
 from pathlib import Path
 
+PASTA_PROJETO = Path(__file__).resolve().parent
 
-PASTA_PROJETO = Path(__file__).parent.parent
+if PASTA_PROJETO.name == 'src':
+    PASTA_PROJETO = PASTA_PROJETO.parent
 
 PASTA_DADOS = PASTA_PROJETO / "dados"
 PASTA_MODELOS = PASTA_PROJETO / "modelos"
