@@ -56,12 +56,12 @@ O objetivo do projeto é criar um modelo preditivo (Moldelo de aprendizado de M�
     git clone git@github.com:Dnlsd/IbmAttrition.git
     ```
 
-2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
+2. Importe o ambiente virtual semelhante ao utilizado.
 
-    a. Caso esteja utilizando o `conda`, exporte as dependências do ambiente para o arquivo `ambiente.yml`:
+    a. Caso esteja utilizando o `conda`, use as dependências do ambiente para o arquivo `ambiente.yml`:
 
       ```bash
-      conda env export > ambiente.yml
+      conda env create -f ambiente.yml
       ```
 
     b. Caso esteja utilizando outro gerenciador de ambientes, exporte as dependências
